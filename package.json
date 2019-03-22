@@ -1,0 +1,24 @@
+{
+  "name": "html-log",
+  "version": "1.0.0",
+  "description": "template for make web ez.",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "build:sass": "node-sass tools/sass/main.scss css/style.css",
+    "build:es6": "webpack --mode production"
+  },
+  "repository": "https://github.com/PanupongDeve/html-log.git",
+  "author": "PanupongChum",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.11.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

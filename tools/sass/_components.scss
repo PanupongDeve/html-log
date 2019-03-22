@@ -1,0 +1,17 @@
+
+
+.about-me {
+    &__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
+
+    &__content {
+        font-size: 4.8rem;
+        font-weight: bold;
+        color: black;
+        border: solid;
+    }
+}
