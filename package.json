@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server",
-    "build:sass": "node-sass tools/sass/main.scss css/style.css",
+    "build:sass": "node-sass tools/sass/main.scss css/style.css -w",
     "build:es6": "webpack --mode production"
   },
   "repository": "https://github.com/PanupongDeve/html-log.git",

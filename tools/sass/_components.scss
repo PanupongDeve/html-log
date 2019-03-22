@@ -1,17 +1,62 @@
+.html-log {
+    &__center {
+        text-align: center
+    }
 
+    &__uppercase {
+        text-transform: uppercase;
+    }
+}
 
-.about-me {
-    &__box {
+.html-text {
+    &__red {
+        color: red;
+    }
+
+    &__blue {
+        color: #3273dc;
+    }
+
+    &__word-break {
+        word-break: break-all;
+    }
+
+    &__border-box {
+        border-top: 1px solid #dbdbdb;
+    }
+}
+
+.sw_dispaly {
+    &__show_desktop {
+        display: none;
+    }
+
+    &__show_mobile {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 500px;
     }
+}
 
-    &__content {
-        font-size: 4.8rem;
-        font-weight: bold;
-        color: black;
-        border: solid;
+
+@media screen and (min-width: 1140px){
+  
+}
+
+@media screen and (min-width: 960px){
+    .sw_dispaly {
+        &__show_desktop {
+            display: flex;
+        }
+    
+        &__show_mobile {
+            display: none;
+        }
     }
+}
+
+@media screen and (min-width: 768px){
+  
+}
+
+@media screen and (min-width: 576px){
+  
 }
