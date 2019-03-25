@@ -8,6 +8,7 @@
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" />
+  <link href="css/datepicker.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/style.css" />
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <title>Logs</title>
@@ -19,6 +20,16 @@
       <p class="panel-heading html-log__center html-log__uppercase">
         Error - Logs
       </p>
+      <div class="panel-block panel-block-log__column">
+        <div class="field el--full_width">
+          <div class="control has-icons-left has-icons-right">
+            <input id="search-datepicker" class="input datepicker-here"  data-date-format="d MM yyyy" data-language='en' type="text" placeholder="Seleact You Date Time">
+            <span class="icon is-small is-left">
+              <i class="fas fa-search"></i>
+            </span>
+          </div>
+        </div>
+      </div>
 
       <!-- ------- 1 items ------------------------------>
       <div class="panel-block panel-block-log__column">
@@ -27,7 +38,15 @@
           <span class="panel-icon">
             <i class="fas fa-bug html-text__red" aria-hidden="true"></i>
           </span>
-          <span class="html-text__word-break"><b>error:</b> error titles saddddddddddddddddddddddddddddddddddddddsaddddddddddddsadddddddddddddddddddddddddddd</span>
+          <span class="html-text__word-break"><b>error:</b> error titles
+            saddddddddddddddddddddddddddddddddddddddsaddddddddddddsadddddddddddddddddddddddddddd</span>
+        </div>
+
+        <div class="panel-block-log__container">
+          <span class="panel-icon">
+            <i class="fas fa-clock html-text__blue" aria-hidden="true"></i>
+          </span>
+          <span class="html-text__word-break"><b>at:</b> show time logs</span>
         </div>
 
         <div class="panel-block-log__container">
@@ -40,34 +59,15 @@
       </div>
       <!-- ------------------------------------------------ -->
 
-            <!-- ------- 1 items ------------------------------>
-            <div class="panel-block panel-block-log__column">
-
-              <div class="panel-block-log__container">
-                <span class="panel-icon">
-                  <i class="fas fa-bug html-text__red" aria-hidden="true"></i>
-                </span>
-                <span class="html-text__word-break"><b>error:</b> error titles saddddddddddddddddddddddddddddddddddddddsaddddddddddddsadddddddddddddddddddddddddddd</span>
-              </div>
-      
-              <div class="panel-block-log__container">
-                <span class="panel-icon">
-                  <i class="fas fa-clock html-text__blue" aria-hidden="true"></i>
-                </span>
-                <span class="html-text__word-break"><b>at:</b> show time logs</span>
-              </div>
-      
-            </div>
-            <!-- ------------------------------------------------ -->
-
-                  <!-- ------- 1 items ------------------------------>
+      <!-- ------- 1 items ------------------------------>
       <div class="panel-block panel-block-log__column">
 
         <div class="panel-block-log__container">
           <span class="panel-icon">
             <i class="fas fa-bug html-text__red" aria-hidden="true"></i>
           </span>
-          <span class="html-text__word-break"><b>error:</b> error titles saddddddddddddddddddddddddddddddddddddddsaddddddddddddsadddddddddddddddddddddddddddd</span>
+          <span class="html-text__word-break"><b>error:</b> error titles
+            saddddddddddddddddddddddddddddddddddddddsaddddddddddddsadddddddddddddddddddddddddddd</span>
         </div>
 
         <div class="panel-block-log__container">
@@ -80,34 +80,36 @@
       </div>
       <!-- ------------------------------------------------ -->
 
-            <!-- ------- 1 items ------------------------------>
-            <div class="panel-block panel-block-log__column">
-
-              <div class="panel-block-log__container">
-                <span class="panel-icon">
-                  <i class="fas fa-bug html-text__red" aria-hidden="true"></i>
-                </span>
-                <span class="html-text__word-break"><b>error:</b> error titles saddddddddddddddddddddddddddddddddddddddsaddddddddddddsadddddddddddddddddddddddddddd</span>
-              </div>
-      
-              <div class="panel-block-log__container">
-                <span class="panel-icon">
-                  <i class="fas fa-clock html-text__blue" aria-hidden="true"></i>
-                </span>
-                <span class="html-text__word-break"><b>at:</b> show time logs</span>
-              </div>
-      
-            </div>
-            <!-- ------------------------------------------------ -->
-
-                  <!-- ------- 1 items ------------------------------>
+      <!-- ------- 1 items ------------------------------>
       <div class="panel-block panel-block-log__column">
 
         <div class="panel-block-log__container">
           <span class="panel-icon">
             <i class="fas fa-bug html-text__red" aria-hidden="true"></i>
           </span>
-          <span class="html-text__word-break"><b>error:</b> error titles saddddddddddddddddddddddddddddddddddddddsaddddddddddddsadddddddddddddddddddddddddddd</span>
+          <span class="html-text__word-break"><b>error:</b> error titles
+            saddddddddddddddddddddddddddddddddddddddsaddddddddddddsadddddddddddddddddddddddddddd</span>
+        </div>
+
+        <div class="panel-block-log__container">
+          <span class="panel-icon">
+            <i class="fas fa-clock html-text__blue" aria-hidden="true"></i>
+          </span>
+          <span class="html-text__word-break"><b>at:</b> show time logs</span>
+        </div>
+
+      </div>
+      <!-- ------------------------------------------------ -->
+
+      <!-- ------- 1 items ------------------------------>
+      <div class="panel-block panel-block-log__column">
+
+        <div class="panel-block-log__container">
+          <span class="panel-icon">
+            <i class="fas fa-bug html-text__red" aria-hidden="true"></i>
+          </span>
+          <span class="html-text__word-break"><b>error:</b> error titles
+            saddddddddddddddddddddddddddddddddddddddsaddddddddddddsadddddddddddddddddddddddddddd</span>
         </div>
 
         <div class="panel-block-log__container">
@@ -121,25 +123,30 @@
       <!-- ------------------------------------------------ -->
 
 
-      
+
       <div class="panel-block panel-block-log__column sw_dispaly__show_desktop">
-          <nav class="pagination is-right" role="navigation" aria-label="pagination">
-              <a disabled class="pagination-previous">Previous</a>
-              <a class="pagination-next">Next page</a>
-            </nav>
+        <nav class="pagination is-right" role="navigation" aria-label="pagination">
+          <a disabled class="pagination-previous">Previous</a>
+          <a class="pagination-next">Next page</a>
+        </nav>
       </div>
     </nav>
     <div class="panel-block panel-block-log__column html-text__border-box sw_dispaly__show_mobile">
-        <nav class="pagination is-right" role="navigation" aria-label="pagination">
-            <a disabled class="pagination-previous">Previous</a>
-            <a class="pagination-next">Next page</a>
-          </nav>
+      <nav class="pagination is-right" role="navigation" aria-label="pagination">
+        <a disabled class="pagination-previous">Previous</a>
+        <a class="pagination-next">Next page</a>
+      </nav>
     </div>
   </div>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+  <!-- http://t1m0n.name/air-datepicker/docs/  -->
+  <script src="js/datepicker.min.js"></script>
+  <script src="js/i18n/datepicker.en.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
   <script src="js/bundle.js"></script>
 </body>
 

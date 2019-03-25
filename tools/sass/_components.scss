@@ -36,6 +36,12 @@
     }
 }
 
+.el {
+    &--full_width {
+        width: 100%;
+    }
+}
+
 
 @media screen and (min-width: 1140px){
   
