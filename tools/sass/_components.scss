@@ -8,6 +8,10 @@
     }
 }
 
+.hand-over {
+    cursor: pointer;
+}
+
 .html-text {
     &__red {
         color: red;
@@ -40,6 +44,25 @@
     &--full_width {
         width: 100%;
     }
+
+    &--modal_margin_top {
+        margin-top: -30vh;
+    }
+
+    &--text_green {
+        color: #23d160;
+    }
+
+    &--header_primary {
+        background-color: #00d1b2;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    &--zIndex {
+        z-index: 10;
+    }
 }
 
 
@@ -55,6 +78,12 @@
     
         &__show_mobile {
             display: none;
+        }
+    }
+
+    .el {
+        &--modal_margin_top {
+            margin-top: 0px;
         }
     }
 }
