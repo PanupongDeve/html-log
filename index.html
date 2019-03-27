@@ -16,6 +16,7 @@
 </head>
 
 <body>
+	<input style="display: none;" id='test' value="5555">
 	<div class="html-log-layout__container">
 		<nav class="panel log_panel__container">
 			<p class="panel-heading html-log__center html-log__uppercase el--header_primary">
@@ -90,37 +91,59 @@
 		<!-- Modal -->
 		<div id="error-modal-lists">
 			<!-- ------- 1 items ------------------------------>
-			<div id="error-modal" class="modal el--modal_margin_top">
+			<div id="error-modal" class="modal">
 				<div class="panel-block panel-modal-block-log__column">
-					<div class="panel-modal-block-log__container">
-						<span class="panel-icon">
+					<div class="panel-modal-block-log__container el--flex-wrap">
+						<span class="panel-icon el--icon-top">
 							<i class="fas fa-envelope el--text_green" aria-hidden="true"></i>
 						</span>
-						<span class="html-text__word-break"><b>message:</b>
-							asdasdsadsadsadsaasdsadsadasdsadasdsadsaddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddsadsadsasadsadsadasd</span>
+						<span class="html-text__word-break"><b>messages:</b></span>
+						<div class="list-content__container">
+							{
+							<span class="html-text__word-break el--margin-content-left"><b>messages:</b> 555</span>
+							<span class="html-text__word-break el--margin-content-left"><b>messages:</b> 555</span>
+							}
+						</div>
 					</div>
 
-					<div class="panel-modal-block-log__container">
-						<span class="panel-icon">
+					<div class="panel-modal-block-log__container el--flex-wrap">
+						<span class="panel-icon el--icon-top">
 							<i class="fas fa-male html-text__red" aria-hidden="true"></i>
 						</span>
-						<span class="html-text__word-break"><b>body:</b> Body</span>
+						<span class="html-text__word-break"><b>body:</b></span>
+						<div class="list-content__container">
+							{
+							<span class="html-text__word-break el--margin-content-left"><b>messages:</b> 555</span>
+							<span class="html-text__word-break el--margin-content-left"><b>messages:</b> 555</span>
+							}
+						</div>
 					</div>
 
-					<div class="panel-modal-block-log__container">
-						<span class="panel-icon">
+					<div class="panel-modal-block-log__container el--flex-wrap">
+						<span class="panel-icon el--icon-top">
 							<i class="fas fa-cog html-text__red" aria-hidden="true"></i>
 						</span>
-						<span class="html-text__word-break"><b>params:</b> Params</span>
+						<span class="html-text__word-break"><b>params:</b></span>
+						<div class="list-content__container">
+							{
+							<span class="html-text__word-break el--margin-content-left"><b>messages:</b> 555</span>
+							<span class="html-text__word-break el--margin-content-left"><b>messages:</b> 555</span>
+							}
+						</div>
 					</div>
 
-					<div class="panel-modal-block-log__container">
-						<span class="panel-icon">
+					<div class="panel-modal-block-log__container el--flex-wrap">
+						<span class="panel-icon el--icon-top">
 							<i class="fas fa-question html-text__red" aria-hidden="true"></i>
 						</span>
-						<span class="html-text__word-break"><b>query:</b> Query</span>
+						<span class="html-text__word-break"><b>query:</b></span>
+						<div class="list-content__container">
+								{
+								<span class="html-text__word-break el--margin-content-left"><b>messages:</b> 555</span>
+								<span class="html-text__word-break el--margin-content-left"><b>messages:</b> 555sadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span>
+								}
+							</div>
 					</div>
-
 				</div>
 				<a class="button is-danger el--full_width" href="#" rel="modal:close">Close</a>
 			</div>
